@@ -2,23 +2,23 @@
   margin: 0;
   padding: 0;
 }
-.header{
-  width:100vw;
+.header {
+  width: 100vw;
   position: fixed;
-  background-color:rgb(65, 65, 65);
+  background-color: rgb(65, 65, 65);
   box-shadow: 0px 0px 10px 0px;
 }
-.header a{
+.header a {
   font-size: 50px;
   margin-left: 80px;
   text-decoration: none;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .gone {
   margin-top: 10px;
   background-color: rgb(77, 77, 77);
-  position: fixed  ;
+  position: fixed;
   /* width: 15vw; */
   height: 100vh;
   color: white;
@@ -47,11 +47,10 @@
   /* position: fixed; */
 }
 
-
 .sidebar {
   margin-top: 75px;
   background-color: rgb(77, 77, 77);
-  position: fixed  ;
+  position: fixed;
   /* width: 15vw; */
   height: 100vh;
   color: white;
@@ -80,8 +79,6 @@
   margin-right: 10px;
   /* position: fixed; */
 }
-
-
 
 .main {
   background-color: rgb(64, 60, 60);
@@ -129,7 +126,7 @@
   transition: 0.5s;
 }
 
-.buttons a{
+.buttons a {
   text-decoration: none;
 }
 
@@ -174,15 +171,15 @@
   flex-direction: row;
 }
 
-.form-text{
-  font-size: 0.4em ;
+.form-text {
+  font-size: 0.4em;
 }
 
 .contactForm input {
   margin: 5px 5px 5px 5px;
   border-radius: 12px;
   padding: 5px;
-  font-size: .4em;
+  font-size: 0.4em;
 }
 
 .btn button {
@@ -201,7 +198,7 @@
   background-color: skyblue;
 }
 
-.line1{
+.line1 {
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 5px;
@@ -210,9 +207,9 @@
   background-color: #fff;
   /* background-image: linear-gradient(to right, #ff9e9d, #fbc2eb); */
 }
-.social a{
+.social a {
   display: flex;
-  font-size: .5em ;
+  font-size: 0.5em;
   margin-top: 20px;
   margin-bottom: 5px;
   align-items: center;
@@ -221,7 +218,7 @@
   text-decoration: none;
 }
 
-.social i{
+.social i {
   margin: 10px;
 }
 
@@ -287,7 +284,7 @@
 }
 
 .hamburger {
-  position: fixed  ;
+  position: fixed;
   cursor: pointer;
   top: 20px;
   left: 10px;
@@ -310,18 +307,18 @@
   * {
     /* background-color: rgb(117, 14, 14); */
   }
-  .header a{
+  .header a {
     font-size: 50px;
     margin-left: 80px;
     text-decoration: none;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
   }
   .sidebarGo {
     transform: translate(-180px, 0px);
     position: fixed;
   }
 
-  .devInfo{
+  .devInfo {
     font-size: 25px;
   }
   .sidebar nav li {
@@ -329,30 +326,29 @@
     padding: 10px;
     color: white;
   }
-  .txt{
+  .txt {
     font-size: 30px;
   }
-  .devPic{
+  .devPic {
     display: none;
   }
 
-  .gone{
+  .gone {
     visibility: hidden;
   }
 
-  .line1{
+  .line1 {
     margin: 25px 0 25px 0;
     height: 5px;
     width: 200px;
   }
 
   .contactForm {
-
     display: flex;
     flex-direction: column;
     color: white;
     /* background-color: grey; */
-    padding:20px;
+    padding: 20px;
     width: 80vw;
     font-size: 27px;
     /* height: 70vh; */
